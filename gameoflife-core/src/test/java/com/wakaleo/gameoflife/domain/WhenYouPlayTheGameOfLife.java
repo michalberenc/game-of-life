@@ -20,7 +20,7 @@ public class WhenYouPlayTheGameOfLife {
                 "...";
 
         String expectedNextGrid = "..." + NEW_LINE +
-                "..." + NEW_LINE +
+                "..o." + NEW_LINE +
                 "..." + NEW_LINE + "";
 
         Universe theUniverse = new Universe(seededWith(initialGrid));
